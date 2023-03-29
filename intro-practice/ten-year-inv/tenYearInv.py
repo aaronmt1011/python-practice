@@ -18,12 +18,15 @@ def investment():
 
     apy = ((1 + ((rate/100) / freq)) ** freq) - 1 
     apyPerc = apy * 100
+    apyRound = round(apyPerc, 2)
 
     for i in range(10):
         cash = cash * (1 + apy)
 
+    cashRound = round(cash, 2)
+
     print("--------")
-    print("The apy value is: ", apyPerc, "%")
-    print("The value in 10 years is: ", cash)
+    print("The apy value is: ", apyRound, "%")
+    print("The value in 10 years is: ", cashRound)
 
 investment()
