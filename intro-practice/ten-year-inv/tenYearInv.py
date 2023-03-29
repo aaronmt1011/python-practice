@@ -1,11 +1,12 @@
 # tenYearInv.py
-# This program uses 2 inputs (initial amount & apy) and
-# returns the value of an investment 10 years into the future.
+# This program uses numerous inputs and returns the value of an investment after 10 years.
 
-# Use below to help with understanding the financial aspects: 
+# Use below to help with understanding some of the financial aspects: 
 # apy is short for annual percentage yield
 # apy is used to calculate interest rates earned on an investment/deposit while 
 # also adding on the effects of compound interest 
+
+# nominal interest rate is the initial rate that is provided before compound interest.
 
 # compounding periods are based off of daily, monthly, quarterly, semi-annually, or annually
 
