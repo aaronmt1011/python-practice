@@ -1,9 +1,11 @@
-# temp-convert.py
+# c2f-temp-convert.py
 # A simple program to convert celsius to fahrenheit 
 
-def main():
-    celsius = eval(input("Please enter °C (celsius) temperature: "))
-    fahrenheit = 9/5 * celsius + 32
-    print("The temperature is: ", fahrenheit, "°F")
+def c2f():
+    print("Hello, this program is a celsius to fahrenheit converter.")
+    cel = eval(input("Please enter °C (celsius) temperature: "))
+    fahr = 9/5 * cel + 32
+    print("----------------")
+    print("The temperature is: ", fahr, "°F")
 
-main()
+c2f()
