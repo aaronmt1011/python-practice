@@ -3,10 +3,16 @@
 
 def c2f():
     print("Hello, this program is a celsius to fahrenheit converter.")
-    cel = eval(input("Please enter °C (celsius) temperature: "))
-    fahr = 9/5 * cel + 32
+    print("This program will convert 5 given temperatures.")
     print("----------------")
-    print("The temperature is: ", fahr, "°F")
+
+    for i in range(5):
+        print("----------------")
+        cel = int(input("Please enter °C (celsius) temperature: "))
+        fahr = 9/5 * cel + 32
+        print("The temperature is: ", fahr, "°F")
+        print("----------------")
+
     print("----------------")
     input("Press the <Enter> key to exit.")
 
