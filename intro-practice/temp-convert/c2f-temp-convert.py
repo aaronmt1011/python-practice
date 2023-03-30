@@ -7,5 +7,7 @@ def c2f():
     fahr = 9/5 * cel + 32
     print("----------------")
     print("The temperature is: ", fahr, "°F")
+    print("----------------")
+    input("Press the <Enter> key to exit.")
 
 c2f()
