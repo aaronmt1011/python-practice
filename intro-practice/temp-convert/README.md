@@ -1,2 +1,8 @@
-<h1>Temperature Conversion Program - Celsius to Fahrenheit:</h1>
-<p>This file will focus on converting temperatures from celsius to fahrenheit.</p>
+<h1>Temperature Conversion Programs - Celsius to Fahrenheit:</h1>
+<p>These programs will all focus on converting temperatures from celsius to fahrenheit but display them in different ways.</p>
+
+<p>Here is a breakdown of the programs:</p>
+<ul>
+    <li>c2f-temp-convert.py - receives 5 celsius temperatures from user and converts each to a fahrenheit temperature</li>
+    <li>c2f-temp-table.py - takes a given number from user and displays a table filled with °C to °F conversions up to given number</li>
+</ul>
