@@ -3,7 +3,7 @@
 
 def c2f():
     cel = int(input("Please enter celsius (°C) temperature: "))
-    fahr = 9/5 * cel + 32
+    fahr = ((9/5) * cel) + 32
     print("  ")
     print("Here is the fahrenheit (°F) temperature: ", fahr, "°F" )
 
