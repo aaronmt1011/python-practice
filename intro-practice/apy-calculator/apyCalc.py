@@ -20,8 +20,7 @@ def investment():
     freq = int(input("Enter the compounding periods for the year: "))
 
     apy = ((1 + ((rate/100) / freq)) ** freq) - 1 
-    apyPerc = apy * 100
-    apyRound = round(apyPerc, 2)
+    apyPerc = round(apy * 100, 2)
     initCash = cash
 
     for i in range(year):
@@ -31,7 +30,7 @@ def investment():
     totInt = round(cashRound - initCash, 2)
 
     print("--------")
-    print("The apy value is:", apyRound, "%")
+    print("The apy value is:", apyPerc, "%")
     print("The value in", year, "years will be:", cashRound)
     print("The interest gained is:", totInt)
 
