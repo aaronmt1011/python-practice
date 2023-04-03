@@ -1,0 +1,3 @@
+<h1>APY Calculator Program</h1>
+<p>This program is an APY (annual percentage yield) calculator. APY is used to return a value on an investment after a certain amount of years while also incorporating compounding interest.</p>
+<p>The program asks users through inputs to get the initial amount of money, the number of years for the investment, the nominal interest rate, and compounding periods for the year. The program then uses these inputs to calculate the APY and returns the futre value of the investment.</p>
