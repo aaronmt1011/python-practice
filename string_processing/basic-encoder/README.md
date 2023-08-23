@@ -1,0 +1,2 @@
+<h1>Basic Encoder Program</h1>
+<p>This program receives an inputted message and turns it into a "secret code" (Unicode codes of each character). This program should be used with the decoder.py program as they complement each other.</p>
