@@ -4,7 +4,7 @@
 # Imported askopenfilename & asksaveasfilename from tkinter.filedialog to deal with files
 from tkinter.filedialog import askopenfilename, asksaveasfilename
 
-def usernamesCreator():
+def unaCreator():
     print("This program creates a file of usernames by using an input file.")
     print("The input file should have some names already inside of it.\n")
 
@@ -26,4 +26,4 @@ def usernamesCreator():
 
     print("Usernames have been places into", outiName)
 
-usernamesCreator()
+unaCreator()
