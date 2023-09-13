@@ -1,0 +1,2 @@
+<h1>Name Number Counter Program</h1>
+<p>This program gives out the sum total of your name's "number". Each letter of the alphabet has a number attached to it, which are based off of alphabetical order (a=1,b=2,y=25,etc.).</p>
